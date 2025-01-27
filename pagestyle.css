@@ -3,6 +3,26 @@ body {
 	background-image: url('alien.png');
 }
 
+header {
+	.navbar {
+		background-color: lightgreen; 
+		text-align: center;
+	}
+	  
+	.navbar li {
+		display: inline-block;
+		font-size: 24px;
+		padding: 20px;
+	}
+	.toppicture{
+		width: 128px;
+		height: 128px;
+	}
+	.opened{
+		background-color: red;
+	}
+}
+
 h2 {
 	background-color: lightgreen;	
 }
