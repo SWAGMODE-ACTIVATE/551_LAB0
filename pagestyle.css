@@ -1,41 +1,21 @@
-body, html {
-  height: 100%;
-  margin: 0;
-}
-.tab {
-  background-color: rgb(88, 35, 62);
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 24px 26px;
-  font-size: 18px;
-  width: 25%;
-}
-.tab:hover {
-  background-color: rgb(192, 95, 134);
+body {
+	background-color: green;
+	background-image: url('alien.png');
 }
 
-h1 {
-    text-align: center;  
-}
-h1 span{
-    background-color: white;
-}
-p span{
-      background-color: white;
+h2 {
+	background-color: lightgreen;	
 }
 
-#Home {background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/24/Spot_the_cow.gif");
-      background-repeat: repeat;
-      background-size: 400px;}
-#Roadmap {background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/24/Spot_the_cow.gif");
-      background-repeat: repeat;
-      background-size: 400px;}
-#Data {background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/24/Spot_the_cow.gif");
-      background-repeat: repeat;
-      background-size: 400px;}
-#Team {background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/24/Spot_the_cow.gif");
-      background-repeat: repeat;
-      background-size: 400px;}
+@media (min-width: 500px) {
+	body {
+	}
+}
+
+@media (max-width: 499px) {
+	body {
+	}
+}
+
+
+
