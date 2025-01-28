@@ -33,6 +33,11 @@ body {
 		border: 2px solid black;
 		padding: 5px;
 	}
+	.carousel-item img {
+		width: 400px; /* Adjust as needed */
+		height: 400px;
+		object-fit: contain;
+	  }
 }
 
 header {
