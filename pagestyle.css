@@ -18,7 +18,7 @@ body {
 		background-color: lightgreen;
 		padding: 5px 5px 5px;
 	}
-	.warning {
+	#warning {
 		background-color: red;
 	}
 
@@ -39,6 +39,7 @@ body {
 		object-fit: contain;
 	  }
 }
+
 
 header {
 	.navbar {
