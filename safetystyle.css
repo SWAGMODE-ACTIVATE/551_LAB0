@@ -1,0 +1,17 @@
+.col1, .col2 {
+	 background-color: #d8cbb6;
+}
+ .col1 img, .col2 img {
+	 width: 450px;
+	 height: auto;
+}
+ .col1 p, .col2 p {
+	 background-color: transparent;
+}
+ .col1 h1, .col2 h1 {
+	 background-color: transparent;
+}
+ .col2 {
+	 background-color: #ab8acf;
+}
+ 

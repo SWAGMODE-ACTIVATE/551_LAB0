@@ -1,0 +1,21 @@
+$weaponorange: rgb(216, 203, 182);
+$hidingpurple: rgb(171, 138, 207);
+
+.col1{
+    background-color: $weaponorange;
+    img {
+        width: 450px;
+        height: auto;
+    }
+    p   {
+        background-color: transparent;
+    }
+    h1  {
+        background-color: transparent;
+    }
+}
+
+.col2{
+    @extend .col1;
+    background-color: $hidingpurple;
+}
